@@ -1,0 +1,12 @@
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title span {
+    color: var(--blue-2);
+}
+
+.goal_container {
+    padding: 4em 0 2em 0;
+}

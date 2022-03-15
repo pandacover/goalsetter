@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    padding-top: 2em;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.form input[type="text"] {    
+    width: 85%;
+    padding: 0 1rem;
+    border: none;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.3);
+
+}
+
+.form input[type="text"]:focus-within {
+    outline: none;
+    border: none;
+    box-shadow: 0 0 2px 1px var(--blue-2);
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        flex-direction: column;
+    }
+
+    .form input[type="text"] {
+        padding: 1rem;
+        width: 100%;
+    }
+    
+}
